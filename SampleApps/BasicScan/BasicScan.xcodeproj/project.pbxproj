@@ -267,7 +267,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BasicScan_Prefix.pch;
-				HEADER_SEARCH_PATHS = "../../../OBD2Kit/Classes/**";
+				HEADER_SEARCH_PATHS = "../../Classes/**";
 				INFOPLIST_FILE = "BasicScan-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				OTHER_LDFLAGS = (
@@ -285,7 +285,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BasicScan_Prefix.pch;
-				HEADER_SEARCH_PATHS = "../../../OBD2Kit/Classes/**";
+				HEADER_SEARCH_PATHS = "../../Classes/**";
 				INFOPLIST_FILE = "BasicScan-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				OTHER_LDFLAGS = (
