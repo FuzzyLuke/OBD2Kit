@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'BasicScan' target in the 'BasicScan' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29AB068712F861A90073262E /* Base64Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB068412F861A90073262E /* Base64Extensions.h */; };
+		29AB068812F861A90073262E /* Base64Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB068512F861A90073262E /* Base64Extensions.m */; };
+		29AB068912F861A90073262E /* FLLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB068612F861A90073262E /* FLLogging.h */; };
+		29AB06C412F863870073262E /* FLSimScanTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB069812F863870073262E /* FLSimScanTool.h */; };
+		29AB06C512F863870073262E /* FLSimScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB069912F863870073262E /* FLSimScanTool.m */; };
+		29AB06C612F863870073262E /* ELM327.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB069B12F863870073262E /* ELM327.h */; };
+		29AB06C712F863870073262E /* ELM327.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB069C12F863870073262E /* ELM327.m */; };
+		29AB06C812F863870073262E /* ELM327Command.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB069D12F863870073262E /* ELM327Command.h */; };
+		29AB06C912F863870073262E /* ELM327Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB069E12F863870073262E /* ELM327Command.m */; };
+		29AB06CA12F863870073262E /* ELM327ResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB069F12F863870073262E /* ELM327ResponseParser.h */; };
+		29AB06CB12F863870073262E /* ELM327ResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06A012F863870073262E /* ELM327ResponseParser.m */; };
+		29AB06CC12F863870073262E /* GoLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06A212F863870073262E /* GoLink.h */; };
+		29AB06CD12F863870073262E /* GoLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06A312F863870073262E /* GoLink.m */; };
+		29AB06CE12F863870073262E /* GoLinkCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06A412F863870073262E /* GoLinkCommand.h */; };
+		29AB06CF12F863870073262E /* GoLinkCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06A512F863870073262E /* GoLinkCommand.m */; };
+		29AB06D012F863870073262E /* GoLinkResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06A612F863870073262E /* GoLinkResponseParser.h */; };
+		29AB06D112F863870073262E /* GoLinkResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06A712F863870073262E /* GoLinkResponseParser.m */; };
+		29AB06D212F863870073262E /* FLEAController.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06A812F863870073262E /* FLEAController.h */; };
+		29AB06D312F863870073262E /* FLEAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06A912F863870073262E /* FLEAController.m */; };
+		29AB06D412F863870073262E /* FLEAScanTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06AA12F863870073262E /* FLEAScanTool.h */; };
+		29AB06D512F863870073262E /* FLEAScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06AB12F863870073262E /* FLEAScanTool.m */; };
+		29AB06D812F863870073262E /* FLScanTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06AE12F863870073262E /* FLScanTool.h */; };
+		29AB06D912F863870073262E /* FLScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06AF12F863870073262E /* FLScanTool.m */; };
+		29AB06DA12F863870073262E /* FLScanToolCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06B012F863870073262E /* FLScanToolCommand.h */; };
+		29AB06DB12F863870073262E /* FLScanToolCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06B112F863870073262E /* FLScanToolCommand.m */; };
+		29AB06DC12F863870073262E /* FLScanToolResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06B212F863870073262E /* FLScanToolResponse.h */; };
+		29AB06DD12F863870073262E /* FLScanToolResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06B312F863870073262E /* FLScanToolResponse.m */; };
+		29AB06E012F863870073262E /* FLScanToolResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06B612F863870073262E /* FLScanToolResponseParser.h */; };
+		29AB06E112F863870073262E /* FLScanToolResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06B712F863870073262E /* FLScanToolResponseParser.m */; };
+		29AB06E212F863870073262E /* FLECUSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06B812F863870073262E /* FLECUSensor.h */; };
+		29AB06E312F863870073262E /* FLECUSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06B912F863870073262E /* FLECUSensor.m */; };
+		29AB06E612F863870073262E /* FLWifiScanTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB06BC12F863870073262E /* FLWifiScanTool.h */; };
+		29AB06E712F863870073262E /* FLWifiScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB06BD12F863870073262E /* FLWifiScanTool.m */; };
+		29AB071412F8648C0073262E /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AB071312F8648C0073262E /* ExternalAccessory.framework */; };
+		29AB075412F865A00073262E /* NSStreamAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB075212F865A00073262E /* NSStreamAdditions.h */; };
+		29AB075512F865A00073262E /* NSStreamAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB075312F865A00073262E /* NSStreamAdditions.m */; };
+		29AB07DD12F869470073262E /* FLScanToolController.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB07DB12F869470073262E /* FLScanToolController.h */; };
+		29AB07DE12F869470073262E /* FLScanToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB07DC12F869470073262E /* FLScanToolController.m */; };
+		29AB07E712F876DD0073262E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AB07E612F876DD0073262E /* CFNetwork.framework */; };
+		29AB07EB12F877360073262E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AB07EA12F877360073262E /* CoreFoundation.framework */; };
+		29AB081112F879FD0073262E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AB081012F879FD0073262E /* CoreLocation.framework */; };
+		AA747D9F0F9514B9006C5449 /* OBD2Kit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* OBD2Kit_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29AB068412F861A90073262E /* Base64Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Extensions.h; sourceTree = "<group>"; };
+		29AB068512F861A90073262E /* Base64Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Extensions.m; sourceTree = "<group>"; };
+		29AB068612F861A90073262E /* FLLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLogging.h; sourceTree = "<group>"; };
+		29AB069812F863870073262E /* FLSimScanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSimScanTool.h; sourceTree = "<group>"; };
+		29AB069912F863870073262E /* FLSimScanTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSimScanTool.m; sourceTree = "<group>"; };
+		29AB069B12F863870073262E /* ELM327.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELM327.h; sourceTree = "<group>"; };
+		29AB069C12F863870073262E /* ELM327.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELM327.m; sourceTree = "<group>"; };
+		29AB069D12F863870073262E /* ELM327Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELM327Command.h; sourceTree = "<group>"; };
+		29AB069E12F863870073262E /* ELM327Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELM327Command.m; sourceTree = "<group>"; };
+		29AB069F12F863870073262E /* ELM327ResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELM327ResponseParser.h; sourceTree = "<group>"; };
+		29AB06A012F863870073262E /* ELM327ResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELM327ResponseParser.m; sourceTree = "<group>"; };
+		29AB06A212F863870073262E /* GoLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoLink.h; sourceTree = "<group>"; };
+		29AB06A312F863870073262E /* GoLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoLink.m; sourceTree = "<group>"; };
+		29AB06A412F863870073262E /* GoLinkCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoLinkCommand.h; sourceTree = "<group>"; };
+		29AB06A512F863870073262E /* GoLinkCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoLinkCommand.m; sourceTree = "<group>"; };
+		29AB06A612F863870073262E /* GoLinkResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoLinkResponseParser.h; sourceTree = "<group>"; };
+		29AB06A712F863870073262E /* GoLinkResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoLinkResponseParser.m; sourceTree = "<group>"; };
+		29AB06A812F863870073262E /* FLEAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEAController.h; path = Classes/FLEAController.h; sourceTree = "<group>"; };
+		29AB06A912F863870073262E /* FLEAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLEAController.m; path = Classes/FLEAController.m; sourceTree = "<group>"; };
+		29AB06AA12F863870073262E /* FLEAScanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEAScanTool.h; path = Classes/FLEAScanTool.h; sourceTree = "<group>"; };
+		29AB06AB12F863870073262E /* FLEAScanTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLEAScanTool.m; path = Classes/FLEAScanTool.m; sourceTree = "<group>"; };
+		29AB06AE12F863870073262E /* FLScanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLScanTool.h; path = Classes/FLScanTool.h; sourceTree = "<group>"; };
+		29AB06AF12F863870073262E /* FLScanTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLScanTool.m; path = Classes/FLScanTool.m; sourceTree = "<group>"; };
+		29AB06B012F863870073262E /* FLScanToolCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLScanToolCommand.h; path = Classes/FLScanToolCommand.h; sourceTree = "<group>"; };
+		29AB06B112F863870073262E /* FLScanToolCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLScanToolCommand.m; path = Classes/FLScanToolCommand.m; sourceTree = "<group>"; };
+		29AB06B212F863870073262E /* FLScanToolResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLScanToolResponse.h; path = Classes/FLScanToolResponse.h; sourceTree = "<group>"; };
+		29AB06B312F863870073262E /* FLScanToolResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLScanToolResponse.m; path = Classes/FLScanToolResponse.m; sourceTree = "<group>"; };
+		29AB06B612F863870073262E /* FLScanToolResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLScanToolResponseParser.h; path = Classes/FLScanToolResponseParser.h; sourceTree = "<group>"; };
+		29AB06B712F863870073262E /* FLScanToolResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLScanToolResponseParser.m; path = Classes/FLScanToolResponseParser.m; sourceTree = "<group>"; };
+		29AB06B812F863870073262E /* FLECUSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLECUSensor.h; path = Classes/FLECUSensor.h; sourceTree = "<group>"; };
+		29AB06B912F863870073262E /* FLECUSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLECUSensor.m; path = Classes/FLECUSensor.m; sourceTree = "<group>"; };
+		29AB06BC12F863870073262E /* FLWifiScanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLWifiScanTool.h; path = Classes/FLWifiScanTool.h; sourceTree = "<group>"; };
+		29AB06BD12F863870073262E /* FLWifiScanTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLWifiScanTool.m; path = Classes/FLWifiScanTool.m; sourceTree = "<group>"; };
+		29AB071312F8648C0073262E /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		29AB075212F865A00073262E /* NSStreamAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStreamAdditions.h; sourceTree = "<group>"; };
+		29AB075312F865A00073262E /* NSStreamAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStreamAdditions.m; sourceTree = "<group>"; };
+		29AB07DB12F869470073262E /* FLScanToolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLScanToolController.h; path = Classes/FLScanToolController.h; sourceTree = "<group>"; };
+		29AB07DC12F869470073262E /* FLScanToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLScanToolController.m; path = Classes/FLScanToolController.m; sourceTree = "<group>"; };
+		29AB07E612F876DD0073262E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		29AB07EA12F877360073262E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		29AB081012F879FD0073262E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AA747D9E0F9514B9006C5449 /* OBD2Kit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBD2Kit_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libOBD2Kit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOBD2Kit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				29AB071412F8648C0073262E /* ExternalAccessory.framework in Frameworks */,
+				29AB07E712F876DD0073262E /* CFNetwork.framework in Frameworks */,
+				29AB07EB12F877360073262E /* CoreFoundation.framework in Frameworks */,
+				29AB081112F879FD0073262E /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libOBD2Kit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* OBD2Kit */ = {
+			isa = PBXGroup;
+			children = (
+				29AB068312F861A90073262E /* Utils */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = OBD2Kit;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				29AB071312F8648C0073262E /* ExternalAccessory.framework */,
+				29AB07E612F876DD0073262E /* CFNetwork.framework */,
+				29AB07EA12F877360073262E /* CoreFoundation.framework */,
+				29AB081012F879FD0073262E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29AB07E312F8698F0073262E /* WiFi Support Classes */,
+				29AB07E212F8697E0073262E /* External Accessory Support Classes */,
+				29AB068F12F863870073262E /* device_drivers */,
+				29AB07DB12F869470073262E /* FLScanToolController.h */,
+				29AB07DC12F869470073262E /* FLScanToolController.m */,
+				29AB06AE12F863870073262E /* FLScanTool.h */,
+				29AB06AF12F863870073262E /* FLScanTool.m */,
+				29AB06B012F863870073262E /* FLScanToolCommand.h */,
+				29AB06B112F863870073262E /* FLScanToolCommand.m */,
+				29AB06B212F863870073262E /* FLScanToolResponse.h */,
+				29AB06B312F863870073262E /* FLScanToolResponse.m */,
+				29AB06B612F863870073262E /* FLScanToolResponseParser.h */,
+				29AB06B712F863870073262E /* FLScanToolResponseParser.m */,
+				29AB06B812F863870073262E /* FLECUSensor.h */,
+				29AB06B912F863870073262E /* FLECUSensor.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		29AB068312F861A90073262E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				29AB068412F861A90073262E /* Base64Extensions.h */,
+				29AB068512F861A90073262E /* Base64Extensions.m */,
+				29AB068612F861A90073262E /* FLLogging.h */,
+				29AB075212F865A00073262E /* NSStreamAdditions.h */,
+				29AB075312F865A00073262E /* NSStreamAdditions.m */,
+			);
+			name = Utils;
+			path = Classes/Utils;
+			sourceTree = "<group>";
+		};
+		29AB068F12F863870073262E /* device_drivers */ = {
+			isa = PBXGroup;
+			children = (
+				29AB069712F863870073262E /* ecusim */,
+				29AB069A12F863870073262E /* elm327 */,
+				29AB06A112F863870073262E /* gl1 */,
+			);
+			name = device_drivers;
+			path = Classes/device_drivers;
+			sourceTree = "<group>";
+		};
+		29AB069712F863870073262E /* ecusim */ = {
+			isa = PBXGroup;
+			children = (
+				29AB069812F863870073262E /* FLSimScanTool.h */,
+				29AB069912F863870073262E /* FLSimScanTool.m */,
+			);
+			path = ecusim;
+			sourceTree = "<group>";
+		};
+		29AB069A12F863870073262E /* elm327 */ = {
+			isa = PBXGroup;
+			children = (
+				29AB069B12F863870073262E /* ELM327.h */,
+				29AB069C12F863870073262E /* ELM327.m */,
+				29AB069D12F863870073262E /* ELM327Command.h */,
+				29AB069E12F863870073262E /* ELM327Command.m */,
+				29AB069F12F863870073262E /* ELM327ResponseParser.h */,
+				29AB06A012F863870073262E /* ELM327ResponseParser.m */,
+			);
+			path = elm327;
+			sourceTree = "<group>";
+		};
+		29AB06A112F863870073262E /* gl1 */ = {
+			isa = PBXGroup;
+			children = (
+				29AB06A212F863870073262E /* GoLink.h */,
+				29AB06A312F863870073262E /* GoLink.m */,
+				29AB06A412F863870073262E /* GoLinkCommand.h */,
+				29AB06A512F863870073262E /* GoLinkCommand.m */,
+				29AB06A612F863870073262E /* GoLinkResponseParser.h */,
+				29AB06A712F863870073262E /* GoLinkResponseParser.m */,
+			);
+			path = gl1;
+			sourceTree = "<group>";
+		};
+		29AB07E212F8697E0073262E /* External Accessory Support Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29AB06A812F863870073262E /* FLEAController.h */,
+				29AB06A912F863870073262E /* FLEAController.m */,
+				29AB06AA12F863870073262E /* FLEAScanTool.h */,
+				29AB06AB12F863870073262E /* FLEAScanTool.m */,
+			);
+			name = "External Accessory Support Classes";
+			sourceTree = "<group>";
+		};
+		29AB07E312F8698F0073262E /* WiFi Support Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29AB06BC12F863870073262E /* FLWifiScanTool.h */,
+				29AB06BD12F863870073262E /* FLWifiScanTool.m */,
+			);
+			name = "WiFi Support Classes";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* OBD2Kit_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* OBD2Kit_Prefix.pch in Headers */,
+				29AB068712F861A90073262E /* Base64Extensions.h in Headers */,
+				29AB068912F861A90073262E /* FLLogging.h in Headers */,
+				29AB06C412F863870073262E /* FLSimScanTool.h in Headers */,
+				29AB06C612F863870073262E /* ELM327.h in Headers */,
+				29AB06C812F863870073262E /* ELM327Command.h in Headers */,
+				29AB06CA12F863870073262E /* ELM327ResponseParser.h in Headers */,
+				29AB06CC12F863870073262E /* GoLink.h in Headers */,
+				29AB06CE12F863870073262E /* GoLinkCommand.h in Headers */,
+				29AB06D012F863870073262E /* GoLinkResponseParser.h in Headers */,
+				29AB06D212F863870073262E /* FLEAController.h in Headers */,
+				29AB06D412F863870073262E /* FLEAScanTool.h in Headers */,
+				29AB06D812F863870073262E /* FLScanTool.h in Headers */,
+				29AB06DA12F863870073262E /* FLScanToolCommand.h in Headers */,
+				29AB06DC12F863870073262E /* FLScanToolResponse.h in Headers */,
+				29AB06E012F863870073262E /* FLScanToolResponseParser.h in Headers */,
+				29AB06E212F863870073262E /* FLECUSensor.h in Headers */,
+				29AB06E612F863870073262E /* FLWifiScanTool.h in Headers */,
+				29AB075412F865A00073262E /* NSStreamAdditions.h in Headers */,
+				29AB07DD12F869470073262E /* FLScanToolController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* OBD2Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "OBD2Kit" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OBD2Kit;
+			productName = OBD2Kit;
+			productReference = D2AAC07E0554694100DB518D /* libOBD2Kit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "OBD2Kit" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* OBD2Kit */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* OBD2Kit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AB068812F861A90073262E /* Base64Extensions.m in Sources */,
+				29AB06C512F863870073262E /* FLSimScanTool.m in Sources */,
+				29AB06C712F863870073262E /* ELM327.m in Sources */,
+				29AB06C912F863870073262E /* ELM327Command.m in Sources */,
+				29AB06CB12F863870073262E /* ELM327ResponseParser.m in Sources */,
+				29AB06CD12F863870073262E /* GoLink.m in Sources */,
+				29AB06CF12F863870073262E /* GoLinkCommand.m in Sources */,
+				29AB06D112F863870073262E /* GoLinkResponseParser.m in Sources */,
+				29AB06D312F863870073262E /* FLEAController.m in Sources */,
+				29AB06D512F863870073262E /* FLEAScanTool.m in Sources */,
+				29AB06D912F863870073262E /* FLScanTool.m in Sources */,
+				29AB06DB12F863870073262E /* FLScanToolCommand.m in Sources */,
+				29AB06DD12F863870073262E /* FLScanToolResponse.m in Sources */,
+				29AB06E112F863870073262E /* FLScanToolResponseParser.m in Sources */,
+				29AB06E312F863870073262E /* FLECUSensor.m in Sources */,
+				29AB06E712F863870073262E /* FLWifiScanTool.m in Sources */,
+				29AB075512F865A00073262E /* NSStreamAdditions.m in Sources */,
+				29AB07DE12F869470073262E /* FLScanToolController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/OBD2Kit.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OBD2Kit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = OBD2Kit;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/OBD2Kit.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OBD2Kit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = OBD2Kit;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "OBD2Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "OBD2Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
