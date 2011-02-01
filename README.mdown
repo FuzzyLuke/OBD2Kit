@@ -10,7 +10,7 @@ OBD2Kit was written by [Michael Gile](http://mgile.com) ([@mgile](http://twitter
 
 License
 -------
-   Copyright © 2009-2011 FuzzyLuke Inc.
+   Copyright &copy; 2009-2011 FuzzyLuke Inc.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
